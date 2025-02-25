@@ -1,207 +1,307 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>KB WoodWork</title>
-    <link rel="stylesheet"  href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
     <!-- href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
   </head>
   <body>
-    <div id="page">
-        <!-- header -->
-<header class="header">
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav ">
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="gallery.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Gallery
-                </a>
-                <ul class="dropdown-menu"> 
-                    <li><a class="dropdown-item" href="gallery.html">View All</a></li>
-                   <li><hr class="dropdown-divider"></l>
-                  <li><a class="dropdown-item" href="window.html">Windows</a></li>
-                  <li><a class="dropdown-item" href="doors.html">Doors</a></li>
-                  <li><a class="dropdown-item" href="kitchen.html">Kitchen</a></li>
-                  <li><a class="dropdown-item" href="bespoke.html">Bespoke Furniture</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a id="contact" class="nav-link" href="contact.html">Contact</a>
-              </li>
-             </ul>
+    <div id="main">
+      <!-- header -->
+      <header class="header">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="gallery.html"
+                    data-bs-toggle="dropdown"
+                  >
+                    Gallery
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="gallery.html">View All</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="window.html">Windows</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="doors.html">Doors</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="kitchen.html">Kitchens</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="bespoke.html"
+                        >Bespoke Furniture</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a id="contact" class="nav-link" href="contact.html"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="header-image">
+          <img src="image/hero-image.jpg" alt="carpentry-contact-image" />
+          <div class="banner">
+            <h1>KB WoodWork</h1>
+            <p>From Timber To Treasure</p>
+            <a class="btn-header-contact" href="contact.html" role="button"
+              >Contact</a
+            >
           </div>
         </div>
-      </nav>
-    <div class="header-image">
-        <img src="image/hero-image.jpg" alt="">
-        <div class="banner">
-            <h1 >KB WoodWork</h1>
-            <p>From Timber To Treasure </p>
-            <a class="btn-header-contact" href="contact.html" role="button">Contact</a>
+      </header>
+      <!-- end header -->
+      <!-- section-1 -->
+      <section class="section-1">
+        <h2 class="section-1-heading">Our Work</h2>
+        <div class="services">
+          <div class="card-service" style="width: 20rem">
+            <img src="image/window.jpg" alt="Windows-Woodworking Services" />
+            <h5 class="service-title">Windows</h5>
+            <a href="window.html" class="btn-service">View Work</a>
+          </div>
+          <div class="card-service" style="width: 20rem">
+            <img src="image/Doors.jpg" alt="Wooden Doors & Windows" />
+            <h5 class="service-title">Doors</h5>
+            <a href="doors.html" class="btn-service">View Work</a>
+          </div>
+          <div class="card-service" style="width: 20rem">
+            <img src="image/kitchen.jpg" alt="Kitchen-Professional Carpenter" />
+            <h5 class="service-title">Kitchens</h5>
+            <a href="kitchen.html" class="btn-service">View Work</a>
+          </div>
+          <div class="card-service" style="width: 20rem">
+            <img src="image/bespoke.jpg" alt="Bespoke Wood Designs-Furniture" />
+            <h5 class="service-title">Bespoke Furniture</h5>
+            <a href="bespoke.html" class="btn-service">View Work</a>
+          </div>
         </div>
-       
-    </div>
-</header>
-<!-- end header -->
-<!-- section-1 -->
-<section class="section-1">
-  <h1 class="section-1-heading">Our Work</h1>
-    <div class="services">
-      <div class="card-service" style="width: 20rem;">
-          <img src="image/window.jpg"  alt="Windows">
-          <h5 class="service-title">Windows</h5>
-          <a href="window.html" class="btn-service">View Work</a>
+      </section>
+      <!-- end section-1 -->
+      <!-- section-2 -->
+      <div class="section-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 text-left">
+              <h2>About Us</h2>
+              <p>
+                Our dedicated team of skilled artisans and craftsmen brings
+                years of experience and a passion for excellence to every job,
+                ensuring that each piece is meticulously crafted and tailored to
+                your unique needs. We prioritize sustainable practices, using
+                only the finest materials to create pieces that are not only
+                beautiful but also built to last.
+              </p>
+              <a href="about.html" class="btn-about">View More</a>
+            </div>
+            <div class="col-6 image">
+              <img src="image/about-1.jpg" alt="kitchen-Eco-friendly wood materials" />
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="card-service" style="width: 20rem;">
-          <img src="image/Doors.jpg" alt="Doors">
-          <h5 class="service-title">Doors</h5>
-          <a href="doors.html" class="btn-service">View Work</a>
+      <!-- end section-2 -->
+      <!-- section-3 -->
+      <div class="section-3">
+        <div id="carousel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="image/carousel-2.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="image/carousel-1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="image/carousel-window.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="image/carousel-4.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="image/carousel-5.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
-      <div class="card-service" style="width: 20rem;">
-          <img src="image/kitchen.jpg" alt="Kitchen">
-          <h5 class="service-title">Kitchen</h5>
-          <a href="kitchen.html" class="btn-service">View Work</a>
-      </div>
-      <div class="card-service" style="width: 20rem;">
-          <img src="image/bespoke.jpg"  alt="Bespoke Furniture">
-          <h5 class="service-title">Bespoke Furniture</h5>
-          <a href="bespoke.html" class="btn-service">View Work</a>
-      </div>
-    </div>
+      <!-- end of section-3 -->
+      <!-- section-4 -->
+      <section class="section-4">
+        <h2>What Our Clients Say...</h2>
+        <div class="card">
+          <h6 class="card-header">
+            Sash Window Repairs 
+        </h6>
+          <div class="card-body">
+            <blockquote class="blockquote ">
+              <p>
+                I recently had two sash windows repaired. One window wasn't
+                closing properly due to a broken rope. The second window had a
+                rotten sash frame and damaged glass which was replaced. Both
+                repairs were completed very well. The team was professional and
+                communication over Whatsapp and email was very prompt.
+                Everything was left clean and tidy after the work was done. I
+                would recommend the services of KB WoodWork Design for any sash
+                window repairs.
+              </p>
+              <p class="blockquote-footer">Job location: SE21 </p>
+            </blockquote>
+          </div>
+        </div>
+        <div class="card">
+          <h6 class="card-header">
+            Double linen press wardrobe
+          </h6>
+          <div class="card-body">
+            <blockquote class="blockquote">
+              <p>
+                Kristi and team were highly communicative, punctual and
+                prompt.<br />
+                They build a slim wardrobe for me in an alcove as per
+                specifications up to a high standard.<br />
+                They even were happy to come back a second time to address a
+                concern I had.
+              </p>
+              <p class="blockquote-footer">Job location:N1</p>
+            </blockquote>
+          </div>
+        </div>
+        <div class="card">
+          <h6 class="card-header">
+            Fixed doors and bathroom cabinet
+          <h6>
+          <div class="card-body">
+            <blockquote class="blockquote ">
+              <p>
+                Very efficient, professional and high quality work! Thanks so
+                much
+              </p>
+              <p class="blockquote-footer">Job location: W1U </pr>
+            </blockquote>
+          </div>
+        </div>
+      
+        <div class="more-reviews">
+          <h2></h2>
+          <a
+            href="https://www.checkatrade.com/trades/kbwoodworkdesign/reviews"
+            class="btn-reviews" target="_blank"
+            >Read more reviews</a
+          >
+
+        </div>
 </section>
-<!-- end section-1 -->
- <!-- section-2 -->
-<div class="section-2">
-  <div class="container">
-    <div class="row">
-      <div class="col-6 text-left">
-        <h1>About Us</h1>
-        <p>Our dedicated team of skilled artisans and craftsmen brings years of experience and
-          a passion for excellence to every job, ensuring that each piece is meticulously 
-          crafted and tailored to your unique needs. We prioritize sustainable practices,
-          using only the finest materials to create pieces that are not only beautiful but 
-          also built to last.
-        </p>
-        <a href="about.html" class="btn-about">View More</a>
-      </div>
-      <div class="col-6 text-center">
-        <img src="image/kitchen.jpg" alt="kitchen">
-      </div>
-    </div>
-  </div>    
-</div>
-<!-- end section-2 -->
-<!-- section-3 -->
-<div class="section-3">
-    <div id="carousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="image/carousel-2.jpg" class="d-block w-100" alt="...">
+      
+     
+<!-- end gere -->
+    
+
+      <!-- footer -->
+       <footer class="footer">
+         <h5>KB WoodWork</h5>
+        <div class="footer-item">
+          <a
+            href="https://www.google.com/maps/place/KB+WoodWork+Design/@51.5700036,-0.0418446,17z/data=!3m1!4b1!4m6!3m5!1s0x48761d039bfe57a7:0x191216109dffd803!8m2!3d51.5700036!4d-0.0418446!16s%2Fg%2F11wpytjzzv?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"
+            class="footer-link" target="_blank"
+            >Unit 16, 17 Argall Ave,E10 7QE</a
+          >
         </div>
-        <div class="carousel-item">
-            <img src="image/carousel-1.jpg" class="d-block w-100" alt="...">
+        <div class="footer-item">
+          <a href="mailto:kbwoodworkdesign20@gmail.com" class="footer-link" target="_blank"
+            >kbwoodworkdesign20@gmail.com</a
+          >
         </div>
-        <div class="carousel-item">
-            <img src="image/bespoke/bespoke-1-5.jpg" class="d-block w-100" alt="...">
+        <div class="footer-item">
+          <a href="tel:07301383401" class="footer-link"> 07301383401</a>
         </div>
-        <div class="carousel-item">
-            <img src="image/bespoke/bespoke-1-4.jpg" class="d-block w-100" alt="...">
+        <div class="footer-social">
+          <a
+            href="https://www.facebook.com/share/1LtETHgT3h/?mibextid=wwXIfr"
+            class="footer-link" target="_blank"
+          >
+            <img src="image/Facebook.png" alt="facebook-link" />
+          </a>
+          <a
+            href="https://www.instagram.com/kb.woodwork.design/?hl=en"
+            class="footer-link" target="_blank"
+          >
+            <img src="image/Instagram.png" alt="instagram-link"
+          /></a>
+        </div> 
+        <div class="footer-copyright">
+          <small>&copy; KB WoodWork All Rights Reserves</small>
         </div>
-        <div class="carousel-item">
-            <img src="image/kitchen/kitchen-19-1.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="image/kitchen/kitchen-30-1.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</div>
-<!-- end of section-3 -->
-<!-- section-4 -->
-<div class="section-4">
-  <h1> What our clients say..</h1>
-      <div class="card-review">
-        <div class="card-header-review">
-          Double linen press wardrobe
-        </div>
-        <div class="card-body-review">
-          <blockquote class="blockquote mb-0">
-          <p>Kristi and team were highly communicative, punctual and prompt.<br>
-            They build a slim wardrobe for me in an alcove as per specifications up to a high 
-            standard.<br>
-             They even were happy to come back a second time to address a concern I had.
-          </p>
-          <footer class="blockquote-footer">By Savio Chopra in N1 2HS</footer>
-          </blockquote>
-          <hr>
-          <blockquote class="blockquote mb-0">
-                
-                <p>Kristi and team were highly communicative, punctual and prompt.<br>
-                  They build a slim wardrobe for me in an alcove as per specifications up to a high 
-                  standard.<br>
-                  They even were happy to come back a second time to address a concern I had.
-                </p>
-                <footer class="blockquote-footer">By Savio Chopra in N1 2HS</footer>
-              </blockquote>
-              <hr>
-              <blockquote class="blockquote mb-0">
-                <p>Kristi and team were highly communicative, punctual and prompt.<br>
-                  They build a slim wardrobe for me in an alcove as per specifications up to a high 
-                  standard.<br>
-                  They even were happy to come back a second time to address a concern I had.
-                </p>
-                <footer class="blockquote-footer">By Savio Chopra in N1 2HS</footer>
-              </blockquote>
-            
-        </div>
-      </div>
-</div>
-<!-- end of section-4 -->
-            
-<!-- footer -->
-<footer class="footer">
-  <h5>KB WoodWork</h5>
-    <div class="footer-item">
-       <a href="https://www.google.com/maps/place/KB+WoodWork+Design/@51.5700036,-0.0418446,17z/data=!3m1!4b1!4m6!3m5!1s0x48761d039bfe57a7:0x191216109dffd803!8m2!3d51.5700036!4d-0.0418446!16s%2Fg%2F11wpytjzzv?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D" class="footer-link">Unit 16, 17 Argall Ave, E107QE E10 7QE</a>
-    </div>
-    <div class="footer-item">
-       <a href="mailto:kbwoodworkdesign20@gmail.com" class="footer-link">kbwoodworkdesign20@gmail.com</a>
-    </div>
-    <div class="footer-item">
-        <a href="tel:+07301383401" class="footer-link"> +07301 383401</a>
-    </div>
-    <div class="footer-social">
-        <a href="https://www.facebook.com/share/1LtETHgT3h/?mibextid=wwXIfr" class="footer-link">
-        <img src="image/Facebook.png" alt=""> </a>
-        <a href="https://www.instagram.com/kb.woodwork.design/?hl=en" class="footer-link">
-        <img src="image/Instagram.png" alt=""></a>
-    </div> 
-</footer>
-<!-- end footer -->
+      </footer> 
+      <!-- end footer -->
     </div>
     <script src="JS/bootstrap.bundle.min.js"></script>
     <script src="JS/script.js"></script>
-     <!-- src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></s> -->
   </body>
+    <!-- src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></s> -->
+  
 </html>

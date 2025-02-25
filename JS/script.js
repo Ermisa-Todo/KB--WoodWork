@@ -5,10 +5,10 @@ const closeBtn = document.querySelector('.close');
   
   // Open Lightbox on Click //
    thumbnails.forEach((thumbnail) => { 
-    thumbnail.addEventListener('click', () => { 
-    lightbox.style.display = 'flex'; 
-    lightboxImg.src = thumbnail.src; 
-     }); }); 
+ thumbnail.addEventListener('click', function () {
+            lightbox.style.display = 'flex';
+            lightboxImg.src = thumbnail.src;
+        }); }); 
      // Close Lightbox // 
       closeBtn.addEventListener('click', () => { 
     lightbox.style.display = 'none'; }); 
@@ -19,11 +19,11 @@ const closeBtn = document.querySelector('.close');
      });
 
   function callUs() {
-      window.location.href = 'tel:+15551234567';
+      window.location.href = 'tel:07301383401';
   }
 
   function emailUs() {
-      window.location.href = 'mailto:info@yourcarpentry.com';
+      window.location.href = 'mailto:kbwoodworkdesign20@gmail.com';
   }
  
 
