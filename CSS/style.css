@@ -68,11 +68,11 @@ p {
 }
 .navbar-toggler{
   width:50%;
-  color: #ffffff;
+  color: #a89d8f;
   background-color:transparent;
   margin: 1rem;
   border:none;
-  text-align: center;
+  text-align: left;
 }
 .navbar-toggler:hover{
 background-color:transparent;
@@ -81,8 +81,9 @@ border:none;
 .navbar-toggler-icon {
 padding: 1rem;
 color:transparent;
-background-color:#ffffff;
-border: 0.5rem solid #ffffff;
+background: linear-gradient(45deg,#d1d1d1, #ffffff, #d9c3b0);
+border: 0.5rem solid #d1d1d1, #ffffff, #d9c3b0;
+
 }
 
 .navbar-nav {
@@ -875,6 +876,7 @@ section{
   width: 100%;
   height: 80vh;
 }
+
 .banner {
   position: absolute;
   top: 50%;
