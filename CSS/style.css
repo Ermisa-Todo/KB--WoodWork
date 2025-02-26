@@ -716,7 +716,6 @@ border-radius: 10px;
 .section-about {
   background-color: rgba(168, 157, 143, 0.5);
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 5rem;
   padding: 5rem;
@@ -1062,19 +1061,14 @@ font-size: 2rem;
     flex-direction: column;
     padding: 1rem;
     align-items: center;
+    justify-content: center;
+    
   }
 
 .image-about{
     padding: 0;
     width: 90%;
   } 
-.text-about p{
-    margin: 0;
-    padding: 1;;
-    height: auto;
-   font-size: 1rem;
-   align-items: center;
-  }
  
 .section-contact {
     width: 100%;
