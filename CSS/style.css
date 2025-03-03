@@ -243,22 +243,16 @@ hr {
 .section-1 h2 {
   color: #0c0a08;
   padding: 1rem 0 3rem 0;
-  animation: moveToLeft 6s forwards;
 }
-@keyframes moveToLeft {
-  0% {
-    transform: translateX(80vh);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
+
 .services {
   width: 95%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
   margin: 1rem auto;
+  align-items: center;
+  justify-content: center;
   overflow-x: hidden;
 }
 .card-service {
@@ -317,6 +311,8 @@ hr {
   flex-wrap: wrap;
   gap: 3rem;
   overflow: hidden;
+  align-items: center;
+  justify-content: center;
 }
 .row {
   overflow: hidden;
