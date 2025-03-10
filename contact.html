@@ -122,19 +122,19 @@
   <div class="contact-container">
           <h6>Email directly to <a href="javascript:void(0);" onclick="emailUs()">kbwoodworkdesign20@gmail.com</a> or fill out the form below and we will be in touch.</h6>
           <div class="contact-form">
-            <form action="https://formspree.io/f/xwppzbrb" method="POST">
-            <label for="email">
-              Your email:
-            <input type="email" name="email" id="email" placeholder="name@example.com" autocomplete="email" required>
-       
+            <form  id="contactForm" action="https://formspree.io/f/xwppzbrb" method="POST">
+            <label for="email">Email:
+            <input type="email" name="email" id="email" placeholder="Your email" autocomplete="email" required>
             </label>
             <label for="message">
               Your message:
-              <textarea name="message" id="message" required></textarea>
+              <textarea name="message" id="message"  placeholder="Write your message here..." rows="5" required></textarea>
             </label>
             <button type="submit">Send</button>
           </form>
         </div>
+        <div id="successMessage"> Message sent successfully!
+        </div> 
     <div class="contact-details">
       <p><strong>Business Address:</strong> Unit 16, 17 Argall Ave,E10 7QE</p>
     </div>
@@ -148,7 +148,6 @@
     </div>
   </div>
 </section>
-
  <!-- footer -->
  <footer class="footer">
   <h5>KB WoodWork</h5>

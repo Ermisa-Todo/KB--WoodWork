@@ -8,7 +8,8 @@ const closeBtn = document.querySelector('.close');
  thumbnail.addEventListener('click', function () {
             lightbox.style.display = 'flex';
             lightboxImg.src = thumbnail.src;
-        }); }); 
+        });
+      }); 
      // Close Lightbox // 
       closeBtn.addEventListener('click', () => { 
     lightbox.style.display = 'none'; }); 
@@ -27,3 +28,28 @@ const closeBtn = document.querySelector('.close');
   }
  
 
+  document.getElementById("contactForm").addEventListener("submit", async function(event) {
+    event.preventDefault(); 
+  
+    let form = event.target;
+    let formData = new FormData(form);
+  
+    let response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: { "Accept": "application/json" }
+    });
+  
+    if (response.ok) {
+        let successMessage = document.getElementById("successMessage");
+        successMessage.classList.add("show"); 
+        form.reset(); 
+  
+     
+        setTimeout(() => {
+            successMessage.classList.remove("show"); 
+        }, 5000);
+    } else {
+        alert("Something went wrong. Please try again.");
+    }
+  });
